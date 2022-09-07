@@ -26,7 +26,7 @@ function gridSize(newSize) {
     let answer = prompt("Enter a number between 1 and 100:");
     if (answer < 1 || answer > 100) {
         while (answer < 1 || answer > 100) {
-            answer = prompt("ERROR: Invalid number. Enter a valid number(between 1 and 100).");
+            answer = prompt("ERROR: Invalid value. Enter a valid number(between 1 and 100).");
         }
         clear();
         newSize = parseInt(answer);
@@ -34,7 +34,7 @@ function gridSize(newSize) {
         createGrid(size, size);
     } else if (isNaN(answer) == true) {
         while (isNaN(answer) == true) {
-            answer = prompt("ERROR: Invalid value. Enter a number between 1 and 100:");
+            answer = prompt("ERROR: Invalid value. Enter a valid number (between 1 and 100).");
         }
         clear();
         newSize = parseInt(answer);

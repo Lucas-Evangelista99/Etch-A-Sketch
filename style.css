@@ -40,3 +40,34 @@ body {
     border: 1px solid none;
 }
 
+#buttons {
+    height: 500px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(34, 51, 59);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(87, 86, 86);
+  }
+  
+  button:hover {background-color: rgb(34, 51, 59)}
+  
+  button:active {
+    background-color: rgb(34, 51, 59);
+    box-shadow: 0 5px rgb(80, 77, 77);
+    transform: translateY(4px);
+  }
